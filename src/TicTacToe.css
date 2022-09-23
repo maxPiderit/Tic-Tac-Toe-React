@@ -1,0 +1,71 @@
+
+.table {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+tr {
+  font-size: 70px;
+  margin: none;
+  color: rgba(0, 0, 0, 0.35);
+  font-weight: 600;
+  padding: none;
+}
+
+table td {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(106, 106, 106);
+  padding: 0;
+}
+
+.arriba-izquierda {
+  border: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo {
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 26px;
+  color: white;
+}
+
+.subtitulo {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+}
+
+.inner-modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, .35);
+  width: 600px;
+  height: 100px;
+  padding: 2px 35px;
+}
+
+.input-jugador {
+  margin-left: 10px;
+}
+
+.texto-jugador {
+  margin: 0;
+  display: inline;
+  color: rgb(188, 188, 188);
+}
+
+.boton-jugar {
+  display: block;
+}
+
